@@ -3,44 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scal=1.0">
+        <link rel="stylesheet" href="styles.css">
         <title>Personal Portfolio</title>
-        <style>
-           body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background: #b8cbff;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #b8cbff;
-        }
-        section {
-            padding: 20px;
-            margin: 20px 0;
-            border: 1px solid white;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: white;
-        }
-    </style>
     </head>
     <body>
         <header>
+            <div class="border">
+                    </div>
             <h1>Ty Waltz</h1>
-            <img src="IMG_9672.PNG" alt="Profile Picture" style="width:150px;height:auto;">
+            <div class="image">
+                        <img src="IMG_9672.PNG" alt="Profile Picture" style="width:150px;height:auto;">
+                
+                </div>
             <h3>Welcome to my portfolio!</h3>
             <nav>
                 <a href="#about">About Me</a>
@@ -49,16 +23,18 @@
                 <a href="#contact">Contact</a>
             </nav>
         </header>
+        <div class="about">
         <section id="about">
             <h2>About Me</h2>
-            <p>I have a strong passion for fitness and everything computer related. Both have 
-                always fascinated me. Within the fitness realm, I created a small online coaching business.
+            <p>Fitness and software development/engineering are strong passions of mine. Within the fitness realm, I created a small online coaching business.
                 I learned many things in this in this venture, the most prominent things for me would be
-                leadership, communication, and time management skills. I have been taking on personal tasks as well as courses to further improve 
-                my coding skills. A big goal of mine to to be able to develope sophisticated software
-                while learning to implement ai 
+                leadership, communication, and time management skills. My passion for technology complements my entrepreneurial spirit. 
+                As a dedicated learner, I've honed my abilities in Python, SQL, and web development, 
+                with a goal to create impactful, AI-integrated solutions.
             </p>
         </section>
+        </div>
+        <div class="projects">
         <section id="projects">
             <h2>Projects</h2>
             <article>
@@ -72,16 +48,31 @@
             <p>This application is a way to store contact info on a local system</p>
             <a href="https://github.com/Ty-Waltz/mini-project-contact-management">Contact Management Project</a>
         </section>
+        </div>
+        <div class="skills">
         <section id="skills">
-            <h2>Skills</h2>
+            <h2>Hard Skills</h2>
             <ul>
                 <li>HTML</li>
+                <li>CSS</li>
                 <li>Python</li>
                 <li>SQL</li>
+            </ul>
+            <h2>Soft Skills</h2>
+            <ul>
                 <li>Leadership</li>
                 <li>Communication</li>
             </ul>
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Sales Represenative-Palmetto</li>
+                <li>Online Fitness Coach-Self Employed</li>
+                <li>Bartender/Server-Bonefish</li>
+                <li>Bartender/Server-Harvest Seasonal Grill and Wine Bar</li>
+            </ul>
         </section>
+        </div>
+        <div class="contact">
         <section id="contact">
             <h2>Contact</h2>
             <form>
@@ -95,6 +86,7 @@
             </form>
             <p>Email: ty.waltz@yahoo.com</p>
             </section>
+        </div>
             <footer>
                 <p>2024 Ty Waltz. All rights reserved</p>
                 <p><a href="https://github.com/Ty-Waltz" target="_blank">View on GitHub</a></p>
